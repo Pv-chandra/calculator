@@ -1,0 +1,122 @@
+#body{
+	background: linear-gradient(45deg, #90afc5, #336b87, #2a3132);
+
+}
+
+#calc{
+	display: flex;
+	flex-direction: column;
+	border: 2px solid black;
+	border-radius: 10px;
+	height: 70vh;
+	width: 25vw;
+	min-width: 300px;
+	min-height: 400px;
+	background-color: #2a3132;
+	text-align: center;
+	position: absolute;
+	top: 25%;
+	left: 30%;
+	
+}
+
+#display{
+	height: 20%;
+	width: 90%;
+	align-self: center;
+	border: 2px solid black;
+	background-color: #336b87;
+	margin-top: 20px;
+	margin-bottom: 20px;
+
+}
+
+#buttons{
+	display: flex;
+	flex-direction: column;
+	height: 65%;
+
+}
+#btn-a{
+	height: 20%;
+	width: 98%;
+	/*border: 2px solid black;*/
+	/*background-color: darkmagenta;*/
+	align-self: center;
+	margin: 5px;
+
+
+}
+#btn-b{
+	height: 20%;
+	width: 98%;
+	/*border: 2px solid black;
+	background-color: darkmagenta;*/
+	align-self: center;
+	margin: 5px;
+
+
+
+}
+#btn-c{
+	height: 20%;
+	width: 98%;
+	/*border: 2px solid black;
+	background-color: darkmagenta;*/
+	align-self: center;
+	margin: 5px;
+
+
+}
+#btn-d{
+	height: 20%;
+	width: 98%;
+	/*border: 2px solid black;
+	background-color: darkmagenta;*/
+	align-self: center;
+	margin: 5px;
+
+
+}
+#btn-zero{
+	height: 20%;
+	width: 98%;
+	/*border: 2px solid black;
+	background-color: darkmagenta;*/
+	align-self: center;
+	margin: 5px;
+
+
+}
+
+.button{
+	height: 100%;
+	width: 23%;
+	border: 2px dashed #336b87;
+	border-radius: 5px;
+}
+
+#button-zero{
+	height: 100%;
+	width: 47%;
+	border: 2px dashed #336b87;
+	border-radius: 5px;
+}
+
+.color-fill{
+	background-color: #90afc5;
+}
+
+
+#content{
+	width: 25vw;
+	position: absolute;
+	top: 5%;
+	left: 30%;
+
+}
+
+#text-content{
+	text-align: center;
+	color: lightgrey;
+}

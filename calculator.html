@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="calculator.css">
+	<title></title>
+</head>
+<body id="body">
+
+	<div id="content">
+		<h2 id="text-content">Don't play with someone's feelings , play with numbers.</h2>
+	</div>
+
+
+	<div id="calc">
+		<div id="display">
+			<p id="display-content"></p>
+			
+		</div>
+		<div id="buttons">
+			<div id="btn-a">
+				<button class="button" onclick="display('AC')">AC</button>
+				<button class="button" onclick="display('<-')"><-</button>
+				<button class="button" onclick="display('%')">%</button>
+				<button class="button color-fill" onclick="display('/')">/</button>
+				
+			</div>
+			<div id="btn-b">
+				<button class="button" onclick="display('7')">7</button>
+				<button class="button" onclick="display('8')">8</button>
+				<button class="button" onclick="display('9')">9</button>
+				<button class="button color-fill" onclick="display('*')">*</button>
+			</div>
+			<div id="btn-c">
+				<button class="button" onclick="display('4')">4</button>
+				<button class="button" onclick="display('5')">5</button>
+				<button class="button" onclick="display('6')">6</button>
+				<button class="button color-fill" onclick="display('-')">-</button>
+			</div>
+			<div id="btn-d">
+				<button class="button" onclick="display('1')">1</button>
+				<button class="button" onclick="display('2')">2</button>
+				<button class="button" onclick="display('3')">3</button>
+				<button class="button color-fill"onclick="display('+')">+</button>
+			</div>
+			<div id="btn-zero">
+				<button id="button-zero" onclick="display('0')">0</button>
+				<button class="button" onclick="display('.')">.</button>
+				<button class="button color-fill" onclick="display('=')">=</button>
+		    </div>
+		</div>
+		
+	</div>
+
+
+	<script type="text/javascript" src="calculator.js">
+		
+
+	</script>
+
+
+
+
+
+
+</body>
+</html>
